@@ -97,8 +97,9 @@ nav ul li {
   margin: auto;
 }
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 36.5rem;
+  width: 36.5rem;
+  border-radius: 70%;
 }
 
 .bio {
