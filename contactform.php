@@ -7,15 +7,15 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
 
     $to="ataliasinethemba@gmail.com"
     
-    $message="Name: $name\n Email: $email\n Message: $message";
+    $fullMessage="Name: $name\n Email: $email\n Message: $message";
 
-    if(mail($to,$message)){
+    if(mail($to,$fullMessage)){
         echo"Thank you for your message, I'll get back to you soon.";
 
     } else{
         echo "Sorry, something went wrong please try again.";
     }else{
-        echo"nvslid request"
+        echo"invalid request"
     }
     
 
