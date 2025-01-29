@@ -9,7 +9,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST"){
     
     $message="Name: $name\n Email: $email\n Message: $message";
 
-    if(mail($t0,$message)){
+    if(mail($to,$message)){
         echo"Thank you for your message, I'll get back to you soon.";
 
     } else{
